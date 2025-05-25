@@ -1,0 +1,156 @@
+body{
+    background-color: rgba(0, 0, 0, 0.968);
+    display: flex;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-wrap: initial;
+    
+}
+.minio{
+    background-color: rgb(12, 34, 34);
+    width:60px;
+    height:100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+    
+    
+    
+}
+.amjj{
+   width: 50px;
+   height: 50px;
+   flex-shrink: 0;
+}
+.amjj img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(165, 164, 164);
+   
+}
+.imje{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+ul{
+    list-style: none;
+    position: relative;
+    height:95%;
+}
+ul li a{
+    padding: 10px;
+    margin: 9px;
+   display: block;
+   text-decoration: none;
+  
+   border-radius: 7px;
+   display: flex;
+   gap: 40px;
+   transition: 1s;
+
+}
+ul li a:hover{
+    background-color: aquamarine;
+   
+}
+.rrr{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+
+}
+.rrr a{
+    background-color: aquamarine;
+}
+ul li a i{
+    font-size: 30px;
+}
+li h2{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.minio:hover{
+    width: 260px;
+}
+
+
+.clo{
+    width: 100%;
+    margin: 10px;
+  
+    
+}
+
+.eo{
+background-color: rgb(14, 45, 35);
+display: flex;
+padding:11px;
+justify-content: space-between;
+align-items: center;
+border-radius: 5px;
+margin: 10px;
+
+}
+.uio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.clo .uio .hm{
+    background-color: rgba(3, 33, 10, 0.612);
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.clo .uio .hm:hover{
+    background-color: rgb(11, 63, 46);
+    transition: .2s;
+}
+.clo .uio .hm i{
+    font-size: 30px;
+
+}
+.clo .uio .rt{
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 5px;
+    flex-wrap: wrap-reverse;
+}
+td, th{
+    background-color: rgb(2, 48, 33);
+  padding: 5px;
+  margin: 5px;
+border-radius: 8px;
+height: 22px;
+flex-wrap: wrap;
+
+
+}
+ th, td:hover{
+    background-color: rgba(23, 189, 134, 0.699);
+}
+.price, .count{
+    background-color: rgb(176, 207, 0);
+    border-radius: 8px;
+    padding: 6px;
+}
